@@ -1,2 +1,1 @@
-# Pagina_do_SCRUM_Mais_Resultados_em_Menos_Tempo_Introducao_ao_SCRUM_com_80_por_cento_de_desconto
-Pagina do SCRUM Mais Resultados em Menos Tempo Introdução ao SCRUM com 80% desconto
+# Pagina do SCRUM Mais Resultados em Menos Tempo Introdução ao SCRUM com 80% desconto
