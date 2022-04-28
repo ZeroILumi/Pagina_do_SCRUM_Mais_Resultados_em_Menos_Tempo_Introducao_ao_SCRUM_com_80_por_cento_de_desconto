@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Nossos Cursos
+        </title>
+        <meta 
+        charset="utf-8"
+        content="width=device-width, initial-scale=1.0"
+        >
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="Styles/bootstrap/css/bootstrap.min.css">
+        <script src="Styles/bootstrap/js/bootstrap.min.js">
+        </script>
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="Styles/index.css">
+    </head>
+    <body>
+        <nav 
+        class="navbar navbar-expand-lg navbar-light bg-secondary bg-opacity-25">
+            <!--Inicio da div(divisoria)
+                Atributo class como a classe do bootstrap de divisoria
+                como container-fluid(container fluido)-->
+            <div 
+            class="container-fluid">
+                <!--Inicio da a(ancora)
+                    Atributo class como a classe do bootstrap de ancora
+                    como navbar-brand(marca da barra de navegação)
+                    Atributo href ou hiperlinkreference nullo por isso o #-->
+                <a 
+                class="navbar-brand texto_Z"
+                href="#">
+                    <img 
+                    src="img/logo_Zero_ILuminum_oficial_2_300px_sem_fundo_2.png">
+                    Zero ILuminum
+                </a>
+                <!--Fim da a(ancora)
+                    da classe navbar-brand-->
+                <!--Inicio de um button(botão)
+                    Atributo class como a classe do bootstrap de botão 
+                    navbar-toggler(barra de navegação alternada)
+                    Atributo type como button(botão)
+                    Atributo data-bs-toggle(dado bs alternado) como collapse(colapso)
+                    Atributo data-bs-target(dado bs alvo) 
+                    como #navbarSupportedContent(#conteudo supportado por barra de navegação)
+                    Atributo aria-controls(controles de melodia) 
+                    como navbarSupportedContent(conteudo supportado por barra de navegação)
+                    Atributo aria-expanded(melodia expandida) como false(desativado)
+                    Atributo aria-label(etiqueta de melodia) 
+                    como Toggle navigation(navegação alternada)-->
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <!--Inicio do span(vão de espaço)
+                        Atributo classe do bootstrap de span
+                        como navbar-toggler-icon(icone de barra de navegação alternada)-->
+                    <span 
+                    class="navbar-toggler-icon">
+
+                    </span>
+                    <!--Fim do span(vão de espaço) da classe navbar-toggler-icon-->
+                </button>
+                <!--Fim do button da classe navbar-toggler-->
+                <!--Inicio da div(divisão)
+                    Atributo classe do bootstrap como collapse(colapso)
+                        navbar-collapse(colapso de barra de navegação)
+                    Atributo id(identificador) 
+                    como navbarSupportedContent(Conteudo suportado por barra de navegação)-->
+                <div 
+                class="collapse navbar-collapse" 
+                id="navbarSupportedContent">
+                    <!--Inicio da ul(lista desordenada)
+                        Atributo classe do bootstrap 
+                        como navbar-nav(barra de navegação navegavel)
+                            me-auto(o me como automatico)
+                                mb-2(o mb na forma 2)
+                                    mb-lg-0(o mb como lg na forma 0)-->
+                    <ul 
+                    class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap 
+                            como nav-item(item da barra de navegação)-->
+                        <li 
+                        class="nav-item">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap 
+                                como nav-link(link da barra de navegação)
+                                    active(ativo)
+                                Atributo aria-current(melodia atual)
+                                Atributo href(referencia de hiperlink)-->
+                            <a 
+                            class="nav-link active"
+                            aria-current="page"
+                            href="#"
+                            >
+                                Página Inicial
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link active-->
+                        </li>
+                        <li 
+                        class="nav-item">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap 
+                                como nav-link(link da barra de navegação)
+                                    active(ativo)
+                                Atributo aria-current(melodia atual)
+                                Atributo href(referencia de hiperlink)-->
+                            <a 
+                            class="nav-link active"
+                            aria-current="page"
+                            href="Templates/sobre_a_zero_iluminum.html"
+                            >
+                                Sobre a Zero ILuminum
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link active-->
+                        </li>
+                        <li 
+                            class="nav-item">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap
+                                como nav-link(link da barra de navegação)-->
+                            <a 
+                            class="nav-link active"
+                            href="Templates/entre_em_contato.html">
+                                Entre em contato
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link-->
+                        </li>
+                        <!--Fim do li(item da lista) da classe nav-item-->
+                        <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap como
+                            nav-item(item de barra de navegação)
+                                dropdown(se divide para baixo)-->
+                            <!--Fim da ul(lista desordenada) da classe dropdown-menu-->
+                            <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap 
+                            como nav-item(item da barra de navegação)-->
+                            <!--Fim do li(item da lista) da classe nav-item-->
+                        <!--Fim do li(item da lista) da classe nav-item dropdown 
+                            Fim do menu dropdown-->
+                    </ul>
+                    <!--Fim da ul(lista desordenada) da 
+                        classe navbar-nav me-auto mb-2 mb-lg-0
+                        Fim da escrita na barra de navegação-->
+                    <!--Inicio do form(formulario)
+                        Atributo classe do bootstrap 
+                        como d-flex(flexivel d)-->
+                    <!--Fim do form(formulario) da classe d-flex-->
+                </div>
+                <!--Fim da div da classe collapse navbar-collapse e 
+                    id navbarSupportedContent-->
+            </div>
+            <!--Fim da div(divisoria) 
+                da classe container-fluid-->
+        </nav>
+        <!--Fim de nav(barra de navegação) 
+            da classe navbar navbar-expand-lg navbar-light bg-light-->
+        <main>
+            <div 
+            class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                <div class="col-md-5 p-lg-5 mx-auto my-5">
+                    <div class="text-center bg-light">
+                        <img 
+                        src="img/Agilizando seus projetos com SCRUM.png" 
+                        class="rounded" 
+                        alt="...">
+                    </div>
+                    <h1 class="display-4 fw-normal">
+                        80% de Desconto
+                    </h1>
+                    <h1 class="display-4 fw-normal">
+                        <br>
+                        De <s>R$99,99</s> por R$19,99
+                    </h1>
+                    <h1 class="display-4 fw-normal">
+                        <br>
+                        Descrição 
+                    </h1>
+                    <p class="lead fw-normal">
+                        O SCRUM Mais Resultados em Menos Tempo: Introdução ao SCRUM
+                        lhe dará uma introdução ao que é SCRUM e como ele pode fazer
+                        que seus projetos forneçam mais resultados em menos tempo.
+                    <h1 class="display-4 fw-normal">
+                        Vantagens
+                    </h1>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Acesso Vitalício ao Curso
+                        </li>
+                        <li class="list-group-item">
+                            Uma Introdução ao SCRUM
+                        </li>
+                        <li class="list-group-item">
+                            As Respostas de 7 perguntas de maneira clara 
+                            e bem ilustrada com vídeos de alta qualidade 
+                            com legendas em Português, Inglês, Espanhol e Japonês; 
+                        </li>
+                        <li class="list-group-item">
+                            Cada Vídeo possui um arquivo PDF próprio atrelado a si;
+                        </li>
+                        <li class="list-group-item">
+                            As Perguntas Respondidas Neste Curso são:
+                        </li>
+                        <li class="list-group-item">
+                            1.O Que é SCRUM?
+                        </li>
+                        <li class="list-group-item">
+                            2.O Que é uma Sprint?
+                        </li>
+                        <li class="list-group-item">
+                            3.O Que é Product Backlog e Sprint Backlog?
+                        </li>
+                        <li class="list-group-item">
+                            4.Qual é o Foco do SCRUM?
+                        </li>
+                        <li class="list-group-item">
+                            5.O Que é uma Squad?
+                        </li>
+                        <li class="list-group-item">
+                            6.Qual é a Vantagem da Multidisciplinariedade das Squads?
+                        </li>
+                        <li class="list-group-item">
+                            7.O Que uma Empresa que Utiliza Squads Deve se Atentar?
+                        </li>
+                    </ul>
+                    <h1 class="display-4 fw-normal">
+                        Comprar
+                    </h1>
+                    <p class="lead fw-normal">
+                        Para Comprar o Curso SCRUM Mais Resultados em Menos Tempo: 
+                        Introdução ao SCRUM, basta clicar no botão Comprar Agora,
+                        ele te redirecionara a página de pagamento da hotmart,
+                        onde poderá concluir a compra do curso.
+                    </p>
+                    <a 
+					class="btn btn-outline-secondary" 
+					href="https://pay.hotmart.com/P69729359K?checkoutMode=2&off=8txpzg9v"
+					target="_blank">
+                        Comprar Agora
+                    </a>
+                </div>                
+            <div 
+            class="container">
+                <footer 
+                class="py-3 my-4">
+                    <ul 
+                    class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li 
+                        class="nav-item texto_Z">
+                            <a 
+                            href="#" 
+                            class="nav-link px-2 text-muted">
+                                Zero ILuminum
+                            </a>
+                        </li>
+                        <li 
+                        class="nav-item">
+                            <a 
+                            href="#" 
+                            class="nav-link px-2 text-muted">
+                                Pagina Inicial
+                            </a>
+                        </li>
+                        <li 
+                        class="nav-item">
+                            <a 
+                            href="Templates/entre_em_contato.html" 
+                            class="nav-link px-2 text-muted">
+                                Entre em Contato
+                            </a>
+                        </li>
+                    </ul>
+                        <p 
+                        class="text-center text-muted"> 
+                            &copy; All rights reserved by Zero ILuminum
+                        </p>
+                        <p 
+                        class="text-center text-muted">
+                            &copy; 2021 Zero ILuminum, Inc
+                        </p>
+                </footer>
+            </div>
+    </main>
+    </body>
+</html>
